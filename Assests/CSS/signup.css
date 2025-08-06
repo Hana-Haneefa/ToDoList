@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial, sans-serif;
 }
 
 .mid {
@@ -100,4 +101,25 @@
 
 .image {
     height: 100%;
+}
+
+footer{
+    display: flex;
+    background-color: #E2CDFC;
+
+}
+
+footer p {
+    margin: 0.5rem 0;
+    width: 100%;
+    height: 50px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;       /* vertically center image and text */
+  justify-content: center;   /* horizontally center the whole block */
+  gap: 0.5rem;               /* spacing between image and text */
+  font-weight: bold;
+  font-size: 1.1rem;
 }
