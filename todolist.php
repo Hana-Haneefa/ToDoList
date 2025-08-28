@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./Assests/CSS/todolist.css">
 </head>
 <body>
-  
-    <div class="mid">
+
+    <a href="index.html"><div class="mid">
         <img src="./Assests/Images/Logo.PNG" alt="Logo" class="logo">
-    </div>
+    </div></a>
 
     <div class="task">
         <input type="text" placeholder="Add a new task" id="newTask">
